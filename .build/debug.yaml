@@ -1,0 +1,86 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "CCPayeezySDK-debug.module": ["<CCPayeezySDK-debug.module>"]
+  "CCPayeezySDKPackageTests-debug.test": ["<CCPayeezySDKPackageTests-debug.test>"]
+  "CCPayeezySDKTests-debug.module": ["<CCPayeezySDKTests-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<CCPayeezySDK-debug.module>"]
+  "test": ["<CCPayeezySDK-debug.module>","<CCPayeezySDKPackageTests-debug.test>","<CCPayeezySDKTests-debug.module>"]
+default: "main"
+nodes:
+  "/Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/":
+    is-directory-structure: true
+  "/Users/dayoob/Desktop/CCPayeezySDK/Tests/CCPayeezySDKTests/":
+    is-directory-structure: true
+commands:
+  "/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/PayeezySDK.m.o":
+    tool: clang
+    inputs: ["/Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/PayeezySDK.m"]
+    outputs: ["/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/PayeezySDK.m.o"]
+    description: "Compiling CCPayeezySDK PayeezySDK.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=CCPayeezySDK","-I","/Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/include","-fmodules-cache-path=/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/PayeezySDK.m.d","-c","/Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/PayeezySDK.m","-o","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/PayeezySDK.m.o"]
+    deps: "/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/PayeezySDK.m.d"
+
+  "/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4StreamWriter.m.o":
+    tool: clang
+    inputs: ["/Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/SBJson4StreamWriter.m"]
+    outputs: ["/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4StreamWriter.m.o"]
+    description: "Compiling CCPayeezySDK SBJson4StreamWriter.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=CCPayeezySDK","-I","/Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/include","-fmodules-cache-path=/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4StreamWriter.m.d","-c","/Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/SBJson4StreamWriter.m","-o","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4StreamWriter.m.o"]
+    deps: "/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4StreamWriter.m.d"
+
+  "/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4StreamWriterState.m.o":
+    tool: clang
+    inputs: ["/Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/SBJson4StreamWriterState.m"]
+    outputs: ["/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4StreamWriterState.m.o"]
+    description: "Compiling CCPayeezySDK SBJson4StreamWriterState.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=CCPayeezySDK","-I","/Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/include","-fmodules-cache-path=/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4StreamWriterState.m.d","-c","/Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/SBJson4StreamWriterState.m","-o","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4StreamWriterState.m.o"]
+    deps: "/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4StreamWriterState.m.d"
+
+  "/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4Writer.m.o":
+    tool: clang
+    inputs: ["/Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/SBJson4Writer.m"]
+    outputs: ["/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4Writer.m.o"]
+    description: "Compiling CCPayeezySDK SBJson4Writer.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=CCPayeezySDK","-I","/Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/include","-fmodules-cache-path=/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4Writer.m.d","-c","/Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/SBJson4Writer.m","-o","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4Writer.m.o"]
+    deps: "/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4Writer.m.d"
+
+  "/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDKTests.build/CCPayeezySDKTests.m.o":
+    tool: clang
+    inputs: ["/Users/dayoob/Desktop/CCPayeezySDK/Tests/CCPayeezySDKTests/CCPayeezySDKTests.m"]
+    outputs: ["/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDKTests.build/CCPayeezySDKTests.m.o"]
+    description: "Compiling CCPayeezySDKTests CCPayeezySDKTests.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.15","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=CCPayeezySDKTests","-I","/Users/dayoob/Desktop/CCPayeezySDK/Tests/CCPayeezySDKTests/include","-I","/Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/include","-fmodule-map-file=/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/module.modulemap","-fmodules-cache-path=/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDKTests.build/CCPayeezySDKTests.m.d","-c","/Users/dayoob/Desktop/CCPayeezySDK/Tests/CCPayeezySDKTests/CCPayeezySDKTests.m","-o","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDKTests.build/CCPayeezySDKTests.m.o"]
+    deps: "/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDKTests.build/CCPayeezySDKTests.m.d"
+
+  "<CCPayeezySDK-debug.module>":
+    tool: phony
+    inputs: ["/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/PayeezySDK.m.o","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4StreamWriter.m.o","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4StreamWriterState.m.o","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4Writer.m.o"]
+    outputs: ["<CCPayeezySDK-debug.module>"]
+
+  "<CCPayeezySDKPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDKPackageTests.xctest/Contents/MacOS/CCPayeezySDKPackageTests"]
+    outputs: ["<CCPayeezySDKPackageTests-debug.test>"]
+
+  "<CCPayeezySDKTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDKTests.build/CCPayeezySDKTests.m.o"]
+    outputs: ["<CCPayeezySDKTests-debug.module>"]
+
+  "C.CCPayeezySDKPackageTests-debug.test":
+    tool: shell
+    inputs: ["/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/PayeezySDK.m.o","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4StreamWriter.m.o","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4StreamWriterState.m.o","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDK.build/SBJson4Writer.m.o","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDKTests.build/CCPayeezySDKTests.m.o"]
+    outputs: ["/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDKPackageTests.xctest/Contents/MacOS/CCPayeezySDKPackageTests"]
+    description: "Linking ./.build/x86_64-apple-macosx/debug/CCPayeezySDKPackageTests.xctest/Contents/MacOS/CCPayeezySDKPackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug","-o","/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDKPackageTests.xctest/Contents/MacOS/CCPayeezySDKPackageTests","-module-name","CCPayeezySDKPackageTests","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/dayoob/Desktop/CCPayeezySDK/.build/x86_64-apple-macosx/debug/CCPayeezySDKPackageTests.product/Objects.LinkFileList","-runtime-compatibility-version","none","-target","x86_64-apple-macosx10.15","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/","/Users/dayoob/Desktop/CCPayeezySDK/Tests/CCPayeezySDKTests/","/Users/dayoob/Desktop/CCPayeezySDK/Package.swift","/Users/dayoob/Desktop/CCPayeezySDK/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

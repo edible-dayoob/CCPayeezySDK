@@ -1,0 +1,4 @@
+module CCPayeezySDK {
+    umbrella header "/Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/include/CCPayeezySDK.h"
+    export *
+}

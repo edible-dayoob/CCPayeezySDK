@@ -1,0 +1,18 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "\/Users\/dayoob\/Desktop\/CCPayeezySDK\/.build\/x86_64-apple-macosx\/debug\/CCPayeezySDKPackageTests.xctest\/Contents\/MacOS\/CCPayeezySDKPackageTests",
+      "packageName" : "CCPayeezySDK",
+      "productName" : "CCPayeezySDKPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftTargetMap" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}
