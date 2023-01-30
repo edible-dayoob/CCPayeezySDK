@@ -1,6 +1,6 @@
 dependencies: \
   /Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/PayeezySDK/PayeezySDK.m \
-  /Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/PayeezySDK/PayeezySDK.h \
+  /Users/dayoob/Desktop/CCPayeezySDK/Sources/CCPayeezySDK/include/PayeezySDK.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Modules/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/module.map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Modules/module.modulemap \
