@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		868AAAFD2987E20D00BDA8F5 /* CCPayeezySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 868AAAFC2987E20D00BDA8F5 /* CCPayeezySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		868AAB0F2987E32900BDA8F5 /* PayeezySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 868AAB0E2987E32900BDA8F5 /* PayeezySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86F715EC2987D1F8000B7504 /* CCPayeezySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F715E22987D1F7000B7504 /* CCPayeezySDK.framework */; };
 		86F716142987D5A0000B7504 /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 86F716102987D59F000B7504 /* Sources */; };
 		86F716152987D5A0000B7504 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F716112987D59F000B7504 /* Package.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		868AAAFC2987E20D00BDA8F5 /* CCPayeezySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCPayeezySDK.h; path = Sources/CCPayeezySDK/include/CCPayeezySDK.h; sourceTree = "<group>"; };
+		868AAB0E2987E32900BDA8F5 /* PayeezySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PayeezySDK.h; path = Sources/CCPayeezySDK/PayeezySDK/PayeezySDK.h; sourceTree = "<group>"; };
 		86F715E22987D1F7000B7504 /* CCPayeezySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCPayeezySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F715EB2987D1F8000B7504 /* CCPayeezySDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCPayeezySDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F716102987D59F000B7504 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		86F715D82987D1F7000B7504 = {
 			isa = PBXGroup;
 			children = (
+				868AAB0E2987E32900BDA8F5 /* PayeezySDK.h */,
+				868AAAFC2987E20D00BDA8F5 /* CCPayeezySDK.h */,
 				86F716112987D59F000B7504 /* Package.swift */,
 				86F716122987D59F000B7504 /* README.md */,
 				86F716102987D59F000B7504 /* Sources */,
@@ -79,6 +85,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868AAAFD2987E20D00BDA8F5 /* CCPayeezySDK.h in Headers */,
+				868AAB0F2987E32900BDA8F5 /* PayeezySDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +339,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/CCPayeezySDK/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/CCPayeezySDK/include/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -356,7 +364,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/CCPayeezySDK/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/CCPayeezySDK/include/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
