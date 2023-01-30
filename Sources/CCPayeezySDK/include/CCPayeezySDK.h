@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char CCPayeezySDKVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <CCPayeezySDK/PublicHeader.h>
 
 
-#import <CCPayeezySDK/PayeezySDK.h>
+#import <PayeezySDK/PayeezySDK.h>
